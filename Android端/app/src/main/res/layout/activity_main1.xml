@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Main1Activity">
+
+
+
+    <TextView
+        android:id="@+id/tvmain_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择你要学习的目标："
+        android:background="@drawable/bg_btu1"
+
+        android:layout_marginTop="30dp"
+        android:padding="15dp">
+
+    </TextView>
+    <RadioGroup
+        android:id="@+id/rg_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tvmain_1"
+        android:padding="20dp"
+        android:layout_marginTop="100dp">
+        <RadioButton
+            android:id="@+id/cet4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:checked="true"
+            android:button="@null"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:background="@drawable/bg_radiobutton"
+            android:text="四级学习">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/cet6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_below="@id/cet4"
+            android:textSize="20sp"
+            android:button="@null"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_radiobutton"
+            android:textColor="#000"
+            android:text="六级学习">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/countent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_below="@id/cet4"
+            android:textSize="20sp"
+            android:button="@null"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/bg_radiobutton"
+            android:textColor="#000"
+            android:text="我的账户">
+
+        </RadioButton>
+    </RadioGroup>
+
+
+</RelativeLayout>

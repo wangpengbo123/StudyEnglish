@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InnerfourActivity">
+    <TextView
+        android:id="@+id/tvfour_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:padding="25dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tvfour_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="请选择学习内容："
+        android:textSize="20sp"
+        android:padding="25dp">
+
+    </TextView>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/tvfour_1">
+
+        <Button
+            android:id="@+id/btnfour_1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_btn2"
+            android:text="语法学习"
+            android:textSize="25sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnfour_2"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/btnfour_1"
+            android:textColor="#FFFFFF"
+            android:background="#FF6600"
+            android:text="测试"
+            android:textSize="25sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnfour_3"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/btnfour_1"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFFFF"
+            android:background="#0997F7"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="词典查询"
+            android:textSize="25sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnfour_4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/btnfour_2"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:background="#7755AA"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/btnfour_3"
+            android:text="留言"
+            android:textSize="25sp">
+
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

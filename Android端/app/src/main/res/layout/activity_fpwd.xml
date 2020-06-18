@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".FpwdActivity">
+
+    <TextView
+        android:id="@+id/tvfpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="找回密码"
+
+        android:textSize="20dp" />
+
+    <EditText
+            android:id="@+id/etfpwd_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_btu1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@mipmap/username"
+            android:drawablePadding="5dp"
+            android:layout_below="@id/tvfpwd"
+            android:hint="用户名">
+
+        </EditText>
+        <EditText
+            android:id="@+id/etfpwd_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_btu1"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@mipmap/password"
+            android:drawablePadding="5dp"
+            android:layout_below="@id/etfpwd_1"
+            android:hint="新密码">
+
+        </EditText>
+    <EditText
+        android:id="@+id/etfpwd_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btu1"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@mipmap/password"
+        android:drawablePadding="5dp"
+        android:layout_below="@id/etfpwd_2"
+        android:hint="再次输入">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btfpwd_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etfpwd_3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_btn2"
+        android:padding="20dp"
+        android:text="重置密码"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

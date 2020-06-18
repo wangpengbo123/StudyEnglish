@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Grammar.GrammarActivity"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语法学习"
+        android:textSize="25dp"
+        android:layout_margin="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btngra_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_btu1"
+            android:text="词类"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btngra_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btngra_1"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_btu1"
+            android:text="时态"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btngra_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btngra_2"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_btu1"
+            android:text="语态"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btngra_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btngra_3"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_btu1"
+            android:text="语气"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btngra_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btngra_4"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_btu1"
+            android:text="句子成分"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btngra_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btngra_5"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_btu1"
+            android:text="句型结构"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

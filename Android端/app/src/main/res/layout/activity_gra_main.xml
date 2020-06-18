@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Grammar.GraMainActivity">
+    <TextView
+        android:id="@+id/tspa_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择："
+        android:background="@drawable/bg_btu1"
+
+        android:layout_marginTop="30dp"
+        android:padding="15dp">
+
+    </TextView>
+    <RadioGroup
+        android:id="@+id/rg_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tspa_1"
+        android:padding="20dp"
+        android:layout_marginTop="150dp">
+        <RadioButton
+            android:id="@+id/grastart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:checked="true"
+            android:button="@null"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:background="@drawable/bg_radiobutton"
+            android:text="文本学习">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/graflush"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_below="@id/start"
+            android:textSize="20sp"
+            android:button="@null"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_radiobutton"
+            android:textColor="#000"
+            android:text="视频学习">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+
+</RelativeLayout>

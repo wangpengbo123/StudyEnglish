@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search.WordsActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/wdrl_1"
+        android:layout_width="match_parent"
+        android:layout_height="114dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_1"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+
+            android:drawableLeft="@mipmap/search"
+            android:background="@drawable/bg_btu1"
+            android:hint="请输入想要查找的单词" />
+
+        <Button
+            android:id="@+id/wdib_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/actv_1"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:text="搜索"
+            android:textSize="15dp"/>
+        <Button
+            android:id="@+id/wdib_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/wdib_1"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:text="更新"
+            android:textSize="15dp"/>
+    </RelativeLayout>
+        <TextView
+            android:id="@+id/wdtv_2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="查询结果"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/wdtv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.68"
+        android:background="#FFFFFF"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:textColor="#FF0066" />
+
+
+
+</LinearLayout>
