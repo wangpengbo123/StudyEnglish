@@ -8,12 +8,7 @@
 4)	试卷导入建议使用JDBC，实现对数据库的访问。
 2. 主要技术参数
 本系统总体上采用C/S体系结构，服务器端管理平台采用B/S体系结构。
-开发环境：客户端采用 Android Studio或者eclipse+androidSDK，服务器端采用MyEclipse和Tomcat；
+开发环境：客户端采用 Android Studio，服务器端采用idea和Tomcat；
 操作系统：采用windows 7/8/10系统；
 数据库：客户端采用SQLite，服务器端采用MySql；
 开发语言：使用Java语言进行客户端和服务器端的开发。
-
-
-
-
-
