@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogonActivity">
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/register">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btu1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@mipmap/username"
+        android:drawablePadding="5dp"
+        android:hint="@string/name">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btu1"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@mipmap/password"
+        android:drawablePadding="5dp"
+        android:hint="@string/password">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btu1"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@mipmap/password"
+        android:drawablePadding="5dp"
+        android:hint="@string/psd">
+    </EditText>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="注册"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btn2"/>
+    <TextView
+        android:id="@+id/tvlohon_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:text="已有帐号，去登陆>>"/>
+
+</LinearLayout>

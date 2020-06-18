@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvlogin_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="10dp"
+        android:text="登陆页面">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etlogin_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btu1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@mipmap/username"
+        android:drawablePadding="5dp"
+        android:hint="用户名">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etlogin_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btu1"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@mipmap/password"
+        android:drawablePadding="5dp"
+        android:hint="密码">
+
+    </EditText>
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="登录"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btn2"
+        android:onClick="showToast">
+
+    </Button>
+    <TextView
+        android:id="@+id/tvlogin_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码？"
+        android:textColor="#FF9900"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        android:paddingTop="15dp">
+
+    </TextView>
+</LinearLayout>

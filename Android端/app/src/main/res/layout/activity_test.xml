@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test.TestsActivity">
+
+    <LinearLayout
+        android:id="@+id/tsll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:padding="10dp"
+            android:text="测试开始：" />
+
+        <Chronometer
+            android:id="@+id/tschronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+
+            android:format="已用时间：%s"
+            android:padding="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tsll_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tsll_1"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tscount_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="总共有测试题："
+           />
+        <TextView
+            android:id="@+id/tscount_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tscount_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:text="1"/>
+        <TextView
+            android:id="@+id/tscount_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/tscount_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tstv_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/tsll_2"
+        android:layout_margin="20dp"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/tsrg_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tstv_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <RadioButton
+            android:id="@+id/tsrbtn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="A:"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/tsrbtn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="B:"
+            android:textSize="20sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/tsrbtn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="C:"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/tsrbtn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="D:"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tstv_2"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tstv_1"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/tsrg_1"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tstv_3"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tstv_2"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@id/tsrg_1"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tstv_4"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tstv_3"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/tsrg_1"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tstv_5"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tstv_4"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/tsrg_1"
+        android:gravity="center_vertical" />
+
+    <Button
+        android:id="@+id/tsbtn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tsrg_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/tsbtn_2"
+        android:text="下一题" />
+
+    <Button
+        android:id="@+id/tsbtn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tsrg_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/tsbtn_3"
+        android:text="提交" />
+
+    <Button
+        android:id="@+id/tsbtn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tsrg_1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:text="上一题" />
+
+</RelativeLayout>

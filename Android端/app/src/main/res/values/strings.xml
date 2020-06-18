@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">四六级小助手</string>
+    <string name="welcome">欢迎使用四六级小助手</string>
+    <string name="Logon">注册</string>
+    <string name="Login">登录</string>
+    <string name="hello_world">Hello World</string>
+    <string name="register">注册页面</string>
+    <string name="name">用户名：</string>
+    <string name="password">输入密码：</string>
+    <string name="psd">再次输入：</string>
+    <string name="logoning">注册</string>
+</resources>
